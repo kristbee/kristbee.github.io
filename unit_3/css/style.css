@@ -3,18 +3,42 @@ body {
     font-style: normal;
     font-weight: 400;
     text-align: center;
-    text-decoration:;
-    text-transform: 
     color: #FFFFFF;
 }
 
-#slogan: {font-style: italic
-
+img {
+    max-width: 100%;
+    height: auto;
+    position: relative;
 }
 
-h1 {font-size: 24px;
+h1 {font-size: 200px;
 font-style: normal
 font-weight: 800
 text-align: center;
-color: #FFFFFF;}
+color: #FFFFFF;
+position: absolute;
+top: 200px;
+left: 0;
+width: 100%;
+}
 
+#slogan { 
+	font-style: italic;
+	color: #FFFFFF
+	font-size: 250px;
+}
+
+p {font-size: 100px
+   font-weight: 400
+   color: #FFFFFF;
+ }
+
+hr {
+  width: 200px;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
