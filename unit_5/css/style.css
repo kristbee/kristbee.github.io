@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+  	text-align: center;
+  	background: url("../images/tunnel.jpg");
+  	background-size:100% 100%;
+    font-style: normal;
+    font-weight: 400;
+   /* color: #FFFFFF;*/
+}
+
+.wrapper {
+    background-color: #FFE2B8;
+    padding: 2em 2em 2em 2em;
+}
+
+#navone {
+    background-color: #E8C66A;
+    font-size: 36px;
+}
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    margin: 1em;
+    font-family: 'Poiret One', cursive;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+    padding: 2em;
+    margin: 0 auto;
+}
+
+.picture {
+    /*background: url("../images/tunnel.jpg");*/
+    background-color: #FFC675;
+    display: block;
+    margin: 0 auto;
+    padding: 2em;
+
+}
+
+.description {
+    background-color: #E89C6C;
+    display: block;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+#one {
+    background-color: #FFE2B8;
+}
+
+footer {
+    background-color: #FF957E;
+    padding: 2em 2em 2em 2em;
+    height: 50px;
+    margin: 0 auto;
+}
