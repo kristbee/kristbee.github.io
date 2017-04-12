@@ -46,6 +46,7 @@ header {
     margin: 0 auto;
     border: 1px black solid;
     padding: 20px;
+    font-size: 36px;
 
 }
 
@@ -55,12 +56,14 @@ header {
     margin: 0 auto;
     border: 1px black solid;
     padding: 20px;
+    font-size: 36px;
 }
 
 #one {
     background-color: #FFE2B8;
     border: 1px black solid;
     padding: 20px;
+    font-size: 36px;
 }
 
 footer {
@@ -68,4 +71,5 @@ footer {
     margin: 0 auto;
     border: 1px black solid;
     padding: 20px;
+    font-size: 20px;
 }
