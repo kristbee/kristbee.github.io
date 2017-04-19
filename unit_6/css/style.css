@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+  	text-align: center;
+  	background-size:100% 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.wrapper {
+    background-color: #000;
+    padding: 2em 2em 2em 2em;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#navone {
+    background-color: #000;
+    font-size: 36px;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+}
+
+header {
+    border: 1px black solid;
+    margin: 1em;
+    font-family: 'Poiret One', cursive;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    background: url("../images/tunnel.jpg");
+    background-size:100% 100%;
+
+}
+
+#left{
+    background-color: #000;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+
+}
+
+#right {
+    background: url("../images/stockholm.jpg");
+    background-size:100% 100%;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 62%;
+}
+
+#two_column{
+    background-color: #FFFFFF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.picture {
+    background-color: #FFC675;
+    display: block;
+    margin: 0 auto;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.description {
+    background-color: #E89C6C;
+    display: block;
+    margin: 0 auto;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#one {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+    background-color: #FF957E;
+    margin: 0 auto;
+    border: 1px black solid;
+    padding: 20px;
+    font-size: 20px;
+}
