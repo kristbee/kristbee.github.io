@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Poiret+One');
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
 
 body {
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Cormorant Garamond", serif;
   	text-align: center;
   	background-size:100% 100%;
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 30px;
     color: #FFFFFF;
 }
 
@@ -28,10 +28,7 @@ body {
 }
 
 #navone {
-    /*background-color: #000;*/
     font-size: 24px;
-    /*border: 1px black solid;*/
-    /*padding: 20px;*/
     width: auto;
     float: right;
     font-color: #FFFFFF;
@@ -40,25 +37,25 @@ body {
 header {
     border: 1px black solid;
     margin: 1em;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Julius Sans One', sans-serif;
     font-size: 75px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 400;
     text-align: center;
     padding: 20px;
     margin: 0 auto;
     background: url("../images/tunnel.jpg");
     background-size:100% 100%;
-
 }
 
-#left{
+#left {
     background-color: #000;
     border: 1px black solid;
     padding: 20px;
     float: left;
     width: 30%;
-
+    display: block;
+    text-align: justify;
 }
 
 #right {
@@ -77,30 +74,8 @@ header {
     padding: 20px;
 }
 
-.picture {
-    background-color: #FFC675;
-    display: block;
-    margin: 0 auto;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-.description {
-    background-color: #E89C6C;
-    display: block;
-    margin: 0 auto;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-#one {
-    background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
-}
-
 footer {
-    background-color: #FF957E;
+    background-color: #000;
     margin: 0 auto;
     border: 1px black solid;
     padding: 20px;
