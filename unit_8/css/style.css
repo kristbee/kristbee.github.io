@@ -65,12 +65,14 @@ h2  {
 }
 
 #left {
-    background-size: auto;
-    background-color: #000;
-    border: 1px #000;
+    background-image: url("../images/kbaw.jpg");
+    background-size: 100%;
+    height: auto;
     padding: 20px;
     float: left;
     display: inline-block;
+    width: 28%;
+
 }
 
 #two_column{
@@ -88,4 +90,8 @@ footer {
     font-size: 20px;
 }
 
-@media screen and (min-width:340px) and (max-width: 740px)
+@media screen and (min-width:320px) and (max-width: 740px) {
+        body {
+            font-size: 150%;
+            float: none;}
+}
