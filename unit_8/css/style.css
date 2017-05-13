@@ -99,7 +99,7 @@ footer {
 
 @media only screen and (max-width: 740px){
     nav {
-        float: right;
+        float: none;
     }
 
     nav a {
@@ -130,8 +130,5 @@ footer {
             padding: 0em;
     }
 
-    #footer {
-        padding: 0em;
-    }
 }
 
