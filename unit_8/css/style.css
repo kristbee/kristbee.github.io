@@ -104,9 +104,9 @@ footer {
     #left {
     background-size: cover;
     background-repeat: no-repeat;
-    height: 750px;
+    height: 340px;
     float: none;
-    width: 340px;
+    width: 760px;
     }
 
     #twocolumn {
@@ -120,7 +120,7 @@ footer {
     #intro{
             background-size: cover;
             background-repeat: no-repeat;
-            width:340px;
+            width:740px;
         }
 }
 
