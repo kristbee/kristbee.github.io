@@ -91,24 +91,29 @@ footer {
             font-size: 100%;
             float: none;}
         #intro{
-            background-size: auto;
+            background-size: cover;
             background-repeat: no-repeat;
         }
 }
 
-@media only screen and (min-device-width: 320px){
+@media only screen and (max-width: 740px){
     #left {
     background-size: cover;
     background-repeat: no-repeat;
+    height: 750px;
     float: none;}
+
     #twocolumn {
         float: none;
     }
+
     body {
         font-size: 100%;}
+
     #intro{
             background-size: cover;
             background-repeat: no-repeat;
+            width:740px;
         }
 }
 
