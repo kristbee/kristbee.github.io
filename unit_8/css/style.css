@@ -89,7 +89,7 @@ footer {
 @media screen and (max-device-width: 1117px) {
         body {
             font-size: 100%;
-            float: none;}
+        }
         #intro{
             background-size: cover;
             background-repeat: no-repeat;
@@ -100,8 +100,7 @@ footer {
     nav {
         float: right;
     }
-    nav a{
-        display:inline-block;
+
     }
 
     #left {
@@ -117,7 +116,7 @@ footer {
     }
 
     body {
-        font-size: 150%;
+        font-size: 200%;
     }
 
     #intro{
@@ -125,5 +124,9 @@ footer {
             background-repeat: no-repeat;
             width:1000px;
         }
+
+    #footer {
+        padding: 0em;
+    }
 }
 
