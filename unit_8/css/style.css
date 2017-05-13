@@ -97,15 +97,17 @@ footer {
 }
 
 @media only screen and (max-width: 740px){
-    nav a{
+    nav {
         float: right;
+    }
+    nav a{
         display:inline-block;
     }
 
     #left {
     background-size: cover;
     background-repeat: no-repeat;
-    height: 850px;
+    height: 1000px;
     float: none;
     width: 850px;
     }
