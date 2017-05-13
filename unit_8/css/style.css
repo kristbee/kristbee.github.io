@@ -103,7 +103,7 @@ footer {
     body {
         font-size: 100%;}
     #intro{
-            background-size: 50%;
+            background-size: cover;
             background-repeat: no-repeat;
         }
 }
