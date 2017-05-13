@@ -106,7 +106,7 @@ footer {
     background-repeat: no-repeat;
     height: 750px;
     float: none;
-    width: 100%;
+    width: 340px;
     }
 
     #twocolumn {
@@ -114,12 +114,13 @@ footer {
     }
 
     body {
-        font-size: 100%;}
+        font-size: 100%;
+    }
 
     #intro{
             background-size: cover;
             background-repeat: no-repeat;
-            width:100%;
+            width:340px;
         }
 }
 
