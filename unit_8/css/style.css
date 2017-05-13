@@ -100,12 +100,11 @@ footer {
 @media only screen and (max-width: 740px){
     nav {
         float: right;
-        font-size: 1em;
     }
 
-    /*nav a {
+    nav a {
     display:inline-block;
-    }*/
+    }
 
     #left {
     background-size: cover;
