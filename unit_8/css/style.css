@@ -98,11 +98,7 @@ footer {
 }
 
 @media only screen and (max-width: 740px){
-    nav {
-        letter-spacing: 1.0px;
-    }
-
-
+ 
     #left {
     background-size: cover;
     background-repeat: no-repeat;
