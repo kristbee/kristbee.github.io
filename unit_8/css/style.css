@@ -99,11 +99,6 @@ footer {
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px){
     #twocolumn {
         float: none;
-        width: 500px;
-    }
-    #twocolumn p {
-        float:none;
-        width: 66.66%;
     }
     body {
         font-size: 100%;}
