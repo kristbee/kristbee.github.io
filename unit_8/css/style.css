@@ -99,12 +99,9 @@ footer {
 
 @media only screen and (max-width: 740px){
     nav {
-        letter-spacing: 2.0px;
+        letter-spacing: 1.0px;
     }
 
-    nav a {
-    display:inline-block;
-    }
 
     #left {
     background-size: cover;
@@ -131,7 +128,6 @@ footer {
     }
 
     footer {
-    margin: 0 auto;
     padding: 0em 0em 0em 0em;
 }
 
