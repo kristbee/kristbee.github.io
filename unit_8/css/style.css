@@ -91,20 +91,23 @@ footer {
             font-size: 100%;
             float: none;}
         #intro{
-            background-size: cover;
+            background-size: auto;
             background-repeat: no-repeat;
+            width: 100%;
         }
 }
 
 @media only screen and (max-width: 480px) {
-    
     #twocolumn {
-        float: none;}
+        width: 100%;
+        float: none;
+    }
     body {
         font-size: 100%;}
     #intro{
-            background-size: cover;
+            background-size: auto;
             background-repeat: no-repeat;
+            width: 100%;
         }
 }
 
