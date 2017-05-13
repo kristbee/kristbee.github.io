@@ -86,7 +86,7 @@ footer {
     width: 25em;
 }
 
-@media screen (min-width: 1117px) {
+@media screen and (max-device-width: 1117px) {
         body {
             font-size: 100%;
             float: none;}
@@ -96,7 +96,7 @@ footer {
         }
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px){
     #twocolumn {
         float: none;
     }
