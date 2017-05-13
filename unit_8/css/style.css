@@ -97,16 +97,17 @@ footer {
 }
 
 @media only screen and (max-width: 740px){
-    nav {
+    nav a{
         float: right;
+        display:inline-block;
     }
 
     #left {
     background-size: cover;
     background-repeat: no-repeat;
-    height: 760px;
+    height: 850px;
     float: none;
-    width: 800px;
+    width: 850px;
     }
 
     #twocolumn {
@@ -120,7 +121,7 @@ footer {
     #intro{
             background-size: cover;
             background-repeat: no-repeat;
-            width:800px;
+            width:1000px;
         }
 }
 
