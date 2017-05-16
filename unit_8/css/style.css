@@ -104,12 +104,17 @@ footer {
         letter-spacing: 2.0px;
     }
 
+    nav a {
+    display:block;
+    }
+
     #left {
     background-size: cover;
     background-repeat: no-repeat;
-    height: 1000px;
+    background-position: center center;
+   /* height: 1000px;*/
     float: none;
-    width: 850px;
+/*    width: 850px;*/
     }
 
     #twocolumn {
