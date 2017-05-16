@@ -112,18 +112,27 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-   /* height: 1000px;*/
     float: none;
-/*    width: 850px;*/
     }
 
     #twocolumn {
         float: none;
-        font-size: 2em;
+        font-size: 1.5em;
+    }
+
+    #two_column h1{
+    padding: 1em 9em 0em .5em;
+    display: block;
+    }
+
+    #two_column p {
+    padding: 1em 9em 1em .5em;
+    text-align: justify;
+    display: block;
     }
 
     body {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     #intro{
@@ -133,7 +142,7 @@ footer {
     }
 
     footer {
-    padding: 1em 0em 1em 0em;
+    padding: 1em 1em 1em 2em;
 }
 
 }
