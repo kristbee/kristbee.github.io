@@ -89,20 +89,71 @@ footer {
 }
 
 #leftcontact {
-    padding: 2em 2em 2em 2em;
+    padding: 4em 2em 0em 2em;
     background: url(../images/aboutme.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 120vh;
+    height: 100vh;
     width: 50%;
     float: left;
+    margin: auto;
     }
 
 #contact {
     text-align: center;
-    background-color: #FFE9A2;
     display: block;
-    padding: 12em 15em 15em 20em;
+    padding: 2em 2em 2em 2em;
+    width: 50%;
+    float: right;
+}
+
+.logolink {
+    background-color: #81C1FF;
+    color: #fff;
+    padding:1em;
+    float: left;
+    width: 50%;
+}
+
+#navlink {
+    background-color: #81C1FF;
+    width: 50%;
+    float: right;
+    padding: .85em 0em 0em 1em;
+}
+
+#stockholm{
+    background: url(../images/stockholm.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 140vh;
+    width: 40%;
+    float: left;
+    margin: auto;
+}
+
+#travelp{
+    padding: 1em;
+    width: 60%;
+    text-align: justify;
+    float: right;
+    display: inline-block;
+}
+
+#abba {
+    background: url(../images/abba.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+    width: 100%;
+    float: left;
+    margin: auto;
+}
+
+#musicp{
+    padding: 2em;
+    text-align: justify;
+    display: block;
 }
 
 @media screen and (max-device-width: 1117px) {
@@ -113,7 +164,6 @@ footer {
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center;
-
         }
 }
 
